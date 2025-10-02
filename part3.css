@@ -1,0 +1,13 @@
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+  background: linear-gradient(90deg, #f1f5f9, #e2e8f0);
+}
+
+aside {
+  font-size: 0.95rem;
+
+}
+footer {
+  font-size: 0.9rem;
+}

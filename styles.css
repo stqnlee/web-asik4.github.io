@@ -1,0 +1,33 @@
+.responsive-title { font-size: 2rem; }
+.responsive-text { font-size: 1rem; }
+
+.box-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.mq-box {
+  flex: 1;
+  min-width: 100px;
+  padding: 30px;
+  text-align: center;
+  background: #0d6efd;
+  color: white;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .responsive-title { font-size: 1.5rem; }
+  .responsive-text { font-size: 0.9rem; }
+  .box-container { flex-direction: column; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .responsive-title { font-size: 1.8rem; }
+  .responsive-text { font-size: 1rem; }
+  .mq-box { flex: 1 1 45%; }
+}
+@media (min-width: 1025px) {
+  .responsive-title { font-size: 2.5rem; }
+  .responsive-text { font-size: 1.2rem; }
+  .mq-box { flex: 1 1 30%; }
+}
